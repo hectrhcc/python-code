@@ -9,7 +9,6 @@ if (respuesta=="si"):
 	else:	
 		ing = "tofu"
 else:
-	respuesta="no"
 	pizza = "no vegetariana"
 	print("ingredientes disponibles: \n1-Peperoni\n2-Jamon\n3-Salmon")
 	ingrediente=int(input("Ingrese el numero del ingrediente:"))
